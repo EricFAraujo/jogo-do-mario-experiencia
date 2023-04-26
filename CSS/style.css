@@ -12,6 +12,7 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
+    position: absolute;
 }
 
 .pipe {
@@ -63,4 +64,33 @@
         bottom: 0;
     }
 
+}
+.placar{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    margin-top: 40px;
+}
+.pontos{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+
+.restart{
+  color: yellow;
+  background-color: red;
+  font-weight: bold;
+  padding: 10px; 
+  display: none;
+ 
+}
+
+.display{
+    display: block;
 }
